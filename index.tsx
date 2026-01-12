@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -8,7 +7,6 @@ if (!rootElement) {
   throw new Error("Não foi possível encontrar o elemento root");
 }
 
-// Limpa o texto de "Iniciando..." antes de renderizar o React
 const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
