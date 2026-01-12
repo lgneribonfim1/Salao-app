@@ -5,9 +5,10 @@ import App from './App';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
-  throw new Error("Could not find root element to mount to");
+  throw new Error("Não foi possível encontrar o elemento root");
 }
 
+// Limpa o texto de "Iniciando..." antes de renderizar o React
 const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
